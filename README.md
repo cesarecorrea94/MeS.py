@@ -2,21 +2,23 @@
 
 Trabalho de Modelagem e Simulação
 
-Manual do Usuário
+# Manual do Usuário
 
 ## Interface Usuário
 
+### Visão Geral
+
 <img src=misc/overall.png>
 
-### Área 1:
+#### Área 1:
 
 Aqui ficam os “Dados de Entrada”, por onde o usuário pode definir parâmetros, a velocidade, e a execução da simulação.
 
-### Área 2:
+#### Área 2:
 
 Aqui fica o “Relógio” e a “Lista de Eventos Futuros” do sistema.
 
-### Área 3:
+#### Área 3:
 
 Aqui ficam as “Estatísticas” da simulação:
 * Número de Entidades nas Filas (mínimo, máximo e médio)
@@ -27,47 +29,49 @@ Aqui ficam as “Estatísticas” da simulação:
 
 Aqui também fica o botão de salvar as estatísticas.
 
+### Entradas
+
 <img src=misc/inputs.png>
 
-### Área 1:
+#### Área 1:
 
 Aqui o usuário define o “nº de caminhões” no sistema. O número pode ir de 1 a 100 caminhões.
 
 Nota: Esse campo só pode ser alterado enquanto não houver uma simulação em execução (mesmo que esteja pausada).
 
-### Área 2:
+#### Área 2:
 
 Aqui o usuário define a “velocidade” de simulação.
 
-### Área 3:
+#### Área 3:
 
 Aqui o usuário define a função de distribuição do “Tempo de Carga”.
 
 Nota: Esse campo só pode ser alterado enquanto não houver uma simulação em execução (mesmo que esteja pausada).
 
-### Área 4:
+#### Área 4:
 
 Aqui o usuário define a função de distribuição do “Tempo de Pesagem”.
 
 Nota: Esse campo só pode ser alterado enquanto não houver uma simulação em execução (mesmo que esteja pausada).
 
-### Área 5:
+#### Área 5:
 
 Aqui o usuário define a função de distribuição do “Tempo de Transporte”.
 
 Nota: Esse campo só pode ser alterado enquanto não houver uma simulação em execução (mesmo que esteja pausada).
 
-### Área 6:
+#### Área 6:
 
 Aqui o usuário pode iniciar/continuar e pausar uma simulação.
 
 Para iniciar uma nova simulação deve-se primeiro parar a que está em execução.
 
-### Área 7:
+#### Área 7:
 
 Aqui o usuário pode parar uma simulação.
 
-### Área 8:
+#### Área 8:
 
 Aqui o usuário pode salvar as atuais estatísticas num arquivo.
 
